@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+    <link rel="stylesheet" type="text/css" href="css/milligram.css" media="all">  
+     <script type="text/javascript" src="js/moment.js"></script>
+    <script type="text/javascript" src="js/options.js"></script>   
+   
+</head>    
+    
+<body>
+    
+    <div class="container" style="min-width:400px;">
+        <div class="row">
+            <label style="display:inline-block;">First date: </label>            
+            <input type="date" style="display:inline-block;" id="firstDate"/>           
+        </div>
+        
+        <div class="row">
+            <label style="display:inline-block;">Last date: </label>            
+            <input type="date" style="display:inline-block;" id="lastDate"/>           
+        </div>
+                
+        
+        <div class="row">                
+            <input type="checkbox" style="display:inline-block;" id="saveComments" >    
+            <label style="display:inline-block;font-size:1.2rem;">Save Comments </label> 
+            
+            <input type="checkbox" style="display:inline-block;margin-left: 10px;" id="saveStories" >    
+            <label style="display:inline-block;font-size:1.2rem;">Save Stories </label> 
+        </div>
+        
+        <div id="status" style="min-height:20px;margin-left: 10px;margin-top: 10px; font-size:1.2rem;"></div>
+        
+        <div class="row" style="margin-top:20px;">
+             <label class="button" id="save" >OK</label>
+            <label class="button" id="resetDate" >Reset to default</label>
+        </div>   
+        
+       
+    </div>
+    
+</body>
