@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all">  
+     <script type="text/javascript" src="js/moment.js"></script>
+    <script type="text/javascript" src="js/options.js"></script>   
+   
+</head>    
+    
+<body>
+    
+    <form class="container mt-5 p-4" style="width:400px; border: 1px solid #8a3ab9;border-radius: 4px;">
+        <div class="row">
+            <div class="col">
+                <label class="form-label mt-2" >From</label>
+            </div>
+            <div class="col">
+                <input class="form-control" id="firstDate" name="firstDate" type="date" />
+            </div>
+        </div>   
+        
+        <div class="row mt-2">
+            <div class="col">
+                <label class="form-label mt-2" >To</label>
+            </div>
+            <div class="col">
+                <input class="form-control" id="lastDate" name="lastDate" type="date" />
+            </div>
+        </div>
+        
+        <div class="row mt-3">
+            <div class="form-check form-check-inline ml-3">
+                <input class="form-check-input" type="checkbox" id="saveComments" value="saveComments" >
+                <label class="form-check-label small" for="saveComments">Include Comments</label>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="form-check form-check-inline ml-3">
+                <input class="form-check-input" type="checkbox" id="saveStories" value="saveStories" >
+                <label class="form-check-label small" for="saveStories">Include Stories</label>
+            </div>  
+        </div>
+        
+        <div class="row mt-1">
+            <input class="btn btn-secondary ml-5 mt-4" style="min-width:125px;background-color: #8a3ab9" type="submit" name="submit" value="Submit" id="save"/>
+            <input class="btn btn-secondary ml-3 mt-4" style="background-color: #8a3ab9" type="submit" name="submit" value="Reset Options" id="resetDate"/>
+        </div>          
+        
+        
+        
+    </form>
+    
+<!--
+    <div class="container mt-5" style="width:400px; border: 1px solid #cd486b;border-radius: 4px;"> 
+        <div class="form-group row mx-auto">
+            <label for="from_div" class="col-form-label mt-3  mx-auto" >From</label>
+            <div class="mt-3 " id="from_div">  
+                <input class="form-control" id="firstDate" name="firstDate" type="date" />
+            </div>            
+        </div>
+        
+        <div class="form-group row mx-auto">
+            <label for="to_div" class="col-form-label mt-3  ml-auto" >To</label>
+            <div class="mt-3 " id='to_div'>  
+                <input class="form-control" id="lastDate" name="lastDate" type="date" />
+            </div>          
+        </div>
+                
+        
+        <div class="form-group row mx-auto"> 
+            
+            <div class="form-check form-check-inline mx-auto">
+                <input class="form-check-input" type="checkbox" id="saveComments" value="saveComments" >
+                <label class="form-check-label" for="saveComments">Include Comments</label>
+            </div>
+            
+            <div class="form-check form-check-inline mx-auto">
+                <input class="form-check-input" type="checkbox" id="saveStories" value="saveStories" >
+                <label class="form-check-label" for="saveStories">Include Stories</label>
+            </div>  
+            
+        </div>
+
+        
+        <div class="form-group row mx-auto">
+            <input class="btn btn-secondary ml-5 mt-4" style="min-width:125px;" type="submit" name="submit" value="OK" id="save"/>
+            <input class="btn btn-secondary ml-3 mt-4" type="submit" name="submit" value="Reset Options" id="resetDate"/>
+        </div> 
+        
+    </div>
+-->
+    
+</body>
